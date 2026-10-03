@@ -31,7 +31,7 @@ pre-entrega-automation-testing-Sergio-Conte/
 └── README.md                     # Documentación general
 ```
 
-## 🧪 Casos de Prueba Coberturados
+## 🧪 Casos de Prueba Cubiertos
 
 1. **`test_01_login_exitoso`**: Valida la autenticación con credenciales válidas (`standard_user`) y la posterior redirección al catálogo (`/inventory.html`).
 2. **`test_02_navegacion_y_verificacion_catalogo`**: Verifica la presencia del título de la página, la visibilidad de elementos clave de la interfaz (menú, filtros) y la correcta carga de datos del catálogo.
