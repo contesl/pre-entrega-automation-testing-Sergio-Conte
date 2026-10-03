@@ -4,25 +4,25 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 class SaucedemoHelper:
-    # Locatores de Login
+    # Selectores de Login
     USERNAME_INPUT = (By.ID, "user-name")
     PASSWORD_INPUT = (By.ID, "password")
     LOGIN_BUTTON = (By.ID, "login-button")
     
-    # Locatores del Inventario / Catálogo
+    # Selectores del Inventario / Catálogo
     TITLE_LABEL = (By.CLASS_NAME, "title")
     INVENTORY_ITEM = (By.CLASS_NAME, "inventory_item")
     FIRST_ITEM_NAME = (By.CSS_SELECTOR, ".inventory_item:nth-child(1) .inventory_item_name")
     FIRST_ITEM_PRICE = (By.CSS_SELECTOR, ".inventory_item:nth-child(1) .inventory_item_price")
     FIRST_ADD_TO_CART_BTN = (By.CSS_SELECTOR, ".inventory_item:nth-child(1) button")
     
-    # Locatores de Interfaz
+    # Selectores de Interfaz
     MENU_BUTTON = (By.ID, "react-burger-menu-btn")
     PRODUCT_SORT_CONTAINER = (By.CLASS_NAME, "product_sort_container")
     CART_BADGE = (By.CLASS_NAME, "shopping_cart_badge")
     CART_LINK = (By.CLASS_NAME, "shopping_cart_link")
     
-    # Locatores del Carrito
+    # Selectores del Carrito
     CART_ITEM = (By.CLASS_NAME, "cart_item")
     CART_ITEM_NAME = (By.CLASS_NAME, "inventory_item_name")
 
